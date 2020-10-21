@@ -19,6 +19,7 @@
 
 <script>
 export default {
+  name: 'Icon',
   components: {
     // 注册组件
   }

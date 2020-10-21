@@ -4,6 +4,7 @@
       <a-menu
         mode="inline"
         :inline-collapsed="collapsed"
+        :selected-keys="selectKey"
         @click="handleClick"
       >
         <a-sub-menu key="1">
@@ -20,11 +21,11 @@
             工作台
           </a-menu-item>
         </a-sub-menu>
-        <a-menu-item key="form">
+        <a-menu-item key="form/index">
           <a-icon type="form" />
           <span>表单</span>
         </a-menu-item>
-        <a-menu-item key="table">
+        <a-menu-item key="table/index">
           <a-icon type="table" />
           <span>表格</span>
         </a-menu-item>
@@ -93,10 +94,20 @@
 
 <script>
 export default {
+  name: 'Sidebar',
   data() {
     return {
-      collapsed: false
+      collapsed: false,
+      selectKey: []
     }
+  },
+  watch: {
+    $route(a) {
+      this.selectKey = [a.path.slice(1)]
+    }
+  },
+  created() {
+    this.selectKey = [this.$route.path.slice(1)]
   },
   mounted() {
     this.$bus.$on('collBool', arg => {

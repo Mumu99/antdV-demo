@@ -6,7 +6,9 @@
         :type="collapsed ? 'pic-left' : 'pic-right'"
         @click="toggleCollapsed"
       />
-      <router-view />
+      <div class="content">
+        <router-view />
+      </div>
     </div>
   </div>
 </template>
@@ -34,5 +36,8 @@ export default {
 <style lang="less" rel="stylesheet/less" scoped>
 .appmain {
   background-color: #f5f5f5;
+  .content {
+    padding: 0 20px;
+  }
 }
 </style>
