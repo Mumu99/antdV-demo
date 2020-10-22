@@ -6,10 +6,6 @@
         <Sidebar />
         <AppMain />
       </div>
-      <a-layout-footer>
-        请使用
-        <a-icon type="chrome" />内核的浏览器进行浏览, 才能得到至极的体验
-      </a-layout-footer>
     </a-layout>
   </div>
 </template>

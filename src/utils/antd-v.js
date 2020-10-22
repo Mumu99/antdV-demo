@@ -15,7 +15,10 @@ import {
   Divider,
   List,
   Avatar,
-  Tag
+  Tag,
+  Progress,
+  DatePicker,
+  Table
 } from 'ant-design-vue'
 import Vue from 'vue'
 Vue.use(Layout)
@@ -34,8 +37,11 @@ Vue.use(Layout)
   .use(List)
   .use(Avatar)
   .use(Tag)
+  .use(Progress)
+  .use(DatePicker)
+  .use(Table)
 message.config({
-  top: `100px`,
+  top: `70px`,
   duration: 2,
   maxCount: 1
 })

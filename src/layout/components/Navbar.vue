@@ -472,8 +472,10 @@ export default {
 .ant-tabs-content {
   padding-bottom: 10px;
 }
-.ant-tabs-nav-scroll {
-  display: flex;
-  justify-content: center;
+.modal-show {
+  .ant-tabs-nav-scroll {
+    display: flex;
+    justify-content: center;
+  }
 }
 </style>

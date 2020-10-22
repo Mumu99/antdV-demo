@@ -36,6 +36,8 @@ export default {
 <style lang="less" rel="stylesheet/less" scoped>
 .appmain {
   background-color: #f5f5f5;
+  overflow-y: scroll;
+  padding-bottom: 60px;
   .content {
     padding: 0 20px;
   }

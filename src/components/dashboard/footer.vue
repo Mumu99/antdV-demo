@@ -1,25 +1,23 @@
 <template>
-  <div class="container">
-    <TopCard />
-    <SalesCardItem />
-    <Search />
-    <SalesCardFooter />
-  </div>
+  <footer class="analys-footer">
+    请使用
+    <a-icon type="chrome" />内核的浏览器进行浏览, 才能得到至极的体验
+    <div class="title">2020 猪妈妈体验技术部出品
+      <a
+        href="https://github.com/Mumu99/antdV-demo"
+        target="_blank"
+      >
+        <a-icon type="github" /> Mumu99
+      </a>
+    </div>
+  </footer>
 </template>
 
 <script>
-import TopCard from '@/components/dashboard/topCardItem'
-import SalesCardItem from '@/components/dashboard/salesCardItem/index'
-import Search from '@/components/dashboard/searchItem/index'
-import SalesCardFooter from '@/components/dashboard/footer'
 export default {
-  name: 'Analysis',
+  name: 'SalesCardFooter',
   components: {
     // 注册组件
-    TopCard,
-    SalesCardItem,
-    Search,
-    SalesCardFooter
   },
   data() {
     return {}
