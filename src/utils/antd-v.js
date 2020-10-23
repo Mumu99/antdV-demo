@@ -18,7 +18,8 @@ import {
   Tag,
   Progress,
   DatePicker,
-  Table
+  Table,
+  Radio
 } from 'ant-design-vue'
 import Vue from 'vue'
 Vue.use(Layout)
@@ -40,6 +41,7 @@ Vue.use(Layout)
   .use(Progress)
   .use(DatePicker)
   .use(Table)
+  .use(Radio)
 message.config({
   top: `70px`,
   duration: 2,

@@ -247,6 +247,9 @@ export default {
       width: 49.5%;
       .title {
         color: #ababab;
+        svg {
+          cursor: pointer;
+        }
       }
       .person-num {
         font-size: 18px;

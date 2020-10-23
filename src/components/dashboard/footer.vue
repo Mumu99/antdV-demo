@@ -2,7 +2,7 @@
   <footer class="analys-footer">
     请使用
     <a-icon type="chrome" />内核的浏览器进行浏览, 才能得到至极的体验
-    <div class="title">2020 猪妈妈体验技术部出品
+    <div class="title">2020 猪多嘚&猪妈妈体验技术部出品
       <a
         href="https://github.com/Mumu99/antdV-demo"
         target="_blank"

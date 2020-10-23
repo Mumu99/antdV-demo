@@ -38,6 +38,7 @@ export default {
   background-color: #f5f5f5;
   overflow-y: scroll;
   padding-bottom: 60px;
+  position: relative;
   .content {
     padding: 0 20px;
   }
